@@ -1,0 +1,298 @@
+/*font family start*/
+@font-face{
+	font-family:PlayfairDisplay-Black  serif;
+	src: url(../fonts/Playfair_Display/PlayfairDisplay-Black.ttf)
+}
+@font-face{
+	font-family:PlayfairDisplay-Bold serif;
+	src: url(../fonts/Playfair_Display/PlayfairDisplay-Bold.ttf)
+}
+@font-face{
+	font-family:PlayfairDisplay-Italic  serif;
+	src: url(../fonts/Playfair_Display/PlayfairDisplay-Italic.ttf)
+}
+@font-face{
+	font-family:PlayfairDisplay-Regular  serif;
+	src: url(../fonts/Playfair_Display/PlayfairDisplay-Regular.ttf)
+}
+@font-face{
+	font-family:Inconsolata-Regular ;
+	src: url(../fonts/Inconsolata/Inconsolata-Regular.ttf)
+}
+@font-face{
+	font-family:Ubuntu-Light sans-serif ;
+	src: url(../fonts/Ubuntu/Ubuntu-Light.ttf)
+}
+/*font family end*/
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family:PlayfairDisplay-Regular  serif;
+	font-weight: 400;
+	font-size: 16px;
+	color: #626262;
+
+}
+/*header start*/
+.header {
+	padding: 70px 0 ;
+}
+
+.wrapper {
+	width: 90%;
+    /*border: 1px solid;*/
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.logo {
+	width: 10%;
+    float: left;
+}
+.logo a{}
+.logo a img{
+	width: 100%;
+}
+
+.menu {
+	width: 90%;
+	font-size: 14px;
+	font-family: PlayfairDisplay-Regular;
+	font-weight: 400;
+    float: left;
+}
+.menu ul{
+	    float: right;
+}
+.menu ul li{
+	float:left;
+	list-style: none;
+}
+.menu ul li a{
+	margin-top: 5px;
+	margin-right: 122px;
+	display: block;
+	text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.5s;
+    color: #626262;
+}
+
+.menu ul li:last-child a{
+	margin-right: 0;
+}
+
+.menu ul li a:hover {
+ 	border-bottom: 1px solid #262522;
+	
+
+	
+}
+/*header end*/
+/*banner start*/
+.banner{
+	padding: 70px 0;
+}
+.b-img {
+	
+    
+}
+.b-img img {
+	width: 100%;
+	
+}
+
+/*banner end*/
+/*perfect start*/
+.perfect {
+	/*padding: 70px 0;*/
+}
+
+.wrapper2 {
+	margin: 0 auto;
+	width: 80%;
+	/*border: 1px solid blue;*/
+}
+
+.p-content {
+}
+
+.p-tag {
+	margin-top: 20px;
+	font-size: 14px;
+	font-family:Ubuntu-Light sans-serif ;
+	font-weight: 300;
+	color: #b4ad9e;
+}
+
+.p-title {
+	margin: 30px 0;
+	font-weight: 400;
+    font-size: 30px;
+    color: #626262;
+}
+
+
+/*perfect end*/
+/*blog start*/
+.blog{
+	padding: 70px 0;
+	overflow: hidden;
+}
+.single{
+	width: 47%;
+	float: left;
+}
+.blog-img{}
+.blog-img img{
+	width: 100%;
+}
+.p2-content{
+	margin-bottom: 65px;
+}
+.single:nth-child(even){
+	padding-left:6% ;
+}
+/*blog end*/
+/*news start*/
+.news{
+	padding: 80px 0;
+	background-color: #F0F0F0;
+}
+.news-wrapper{
+	text-align: center;
+}
+.news-h1{
+	margin-bottom: 70px;
+	color: #333333;
+}
+.news-form{
+	margin: 0 auto;
+	/*border: 1px solid;*/
+     width: 400px;
+    position: relative;
+
+}
+.news-form input{
+	width: 345px;
+	height: 45px;
+	font-family: PlayfairDisplay-Regular serif;
+    font-size: 14px;
+    color: #626262;
+	padding-left: 10px;
+	padding-right: 45px;
+    border: none;
+    border-bottom:1px solid ;
+    background: transparent;
+    
+}
+.news-form input:focus{
+	outline: 0;
+}
+.news-form button{
+	position: absolute;
+	top: 15px;
+	 right: 0;
+	background: transparent;
+	 border: none;
+	 cursor: pointer;
+
+}
+.news-form button:focus{
+	outline: 0;
+}
+.news-form button img{
+
+}
+
+/*news end*/
+/*load more start*/
+.load{
+	padding: 20px 0 70px;
+	text-align: center;
+}
+.load button{
+	padding: 20px 35px;
+	cursor: pointer;
+	font-family: PlayfairDisplay-Regular serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #626262;
+    transition: .3s;
+    border: 1px solid #626262;
+    
+
+}
+.load button:hover{
+	background-color: #6B6B6B;
+	color: white;
+}
+/*load more end*/
+/*footer start*/
+footer{
+	background-color: #EDF0F0;
+}
+.wrapper3{
+	margin: 0 auto;
+	padding: 70px 0;
+	width: 90%;
+	overflow: hidden;
+}
+
+.footer-l {
+	margin-left: 85px; 
+	/*border: 1px solid yellow;*/
+    width: 40%;
+    font-size: 14px;
+	float: left;
+
+}
+.footer-l ul{
+	float: left;
+}
+.footer-l ul li{
+
+    list-style: none;
+	    float: left;
+}
+.footer-l ul li a{
+	 margin-right: 16px;
+	 color: #000000;
+    text-decoration: none;
+}
+.footer-l ul li:last-child a{
+	margin-right: 0;
+}
+.footer-r {
+	/*border: 1px solid yellow;*/
+	width: 50%;
+	float: left;
+
+}
+.footer-r ul{
+	    float: right;
+}
+.footer-r ul li{
+	list-style: none;
+    float: left
+}
+.follow{
+	margin-right: 20px;
+	font-size: 14px;
+	color: #000000;
+}
+
+.footer-r ul li a{
+
+	margin-right: 15px;
+}
+.footer-r ul li:last-child a{
+	margin-right: 0;
+}
+
+.footer-r ul li a img{
+
+}
+/*footer end*/
